@@ -51,7 +51,8 @@ cat $1 | sed -E 's/catnip/dogchow/g; s/cat/dog/g; s/meow|meowzer/woof/g'
 
 1. Place the `translate.sh` script in the same directory as your kitty ipsum files.
 2. Run the script in your terminal:
+
    ```bash
    ./translate.sh kitty_ipsum_1.txt > doggy_ipsum_1.txt
    ./translate.sh kitty_ipsum_2.txt > doggy_ipsum_2.txt
-
+   ```
